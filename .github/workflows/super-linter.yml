@@ -1,0 +1,14 @@
+name: linting-java-code
+
+on:
+  push
+
+jobs:
+  Java-linting-code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Super-Linter
+        uses: github/super-linter@latest
+
+    
