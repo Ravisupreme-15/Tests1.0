@@ -47,6 +47,12 @@ public class CalculusTest {
         Assert.assertEquals(result, 3);
     }
 
+       @Test
+    public void testMax3() {
+        int result = Calculus.max(2, 4);
+        Assert.assertEquals(result, 4);
+    }
+
 
 
 
